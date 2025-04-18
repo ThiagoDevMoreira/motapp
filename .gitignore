@@ -1,0 +1,56 @@
+## Ignore arquivos de build
+bin/
+obj/
+
+## Ignore arquivos de log
+*.log
+
+## Ignore pacotes
+*.nupkg
+*.snupkg
+
+## Ignore arquivos de usuário e IDE
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore diretórios do Visual Studio Code
+.vscode/
+
+## Ignore arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+## Ignore arquivos de build do Rider/JetBrains
+.idea/
+
+## Ignore secrets (caso venham a ser usados)
+secrets.json
+
+## Migrations (se quiser controlar manualmente)
+# **/Migrations/
+
+## Ignore pastas de publicação
+publish/
+out/
+dist/
+
+## Ignore banco SQLite (se for usado em dev)
+*.db
+*.sqlite
+
+## Ignore ambientes Docker (se vierem a ser usados)
+.docker/
+
+## Ignore ambientes de testes
+TestResults/
+coverage/
+
+## Configurações específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+## Node modules caso use frontend no futuro
+node_modules/
